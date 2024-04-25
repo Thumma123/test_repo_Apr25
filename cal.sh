@@ -10,7 +10,7 @@ add(){
 
 
 sub(){
-        sub=$(expr $1 - $2)
+        sub=$(expr $2 - $1)
 
         echo $sub
 
